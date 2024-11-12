@@ -37,7 +37,6 @@ jobs:
         with:
           node-version: '21.x'
       - run: yarn install
-      - run: yarn format
       - run: yarn format:check
   test:
     runs-on: ubuntu-latest
